@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .menu {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+    margin-right: 15px;
+    font-size: 25px;
+    
+  }
+  .menu a{
+    text-decoration: none;
+    color: #000000;
+    padding: 25px;
+  }
+  .menu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-right: 510px; /* Aumenta o espaçamento entre os itens do menu */
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 25px 30px; /* Ajusta o preenchimento interno dos itens do menu */
+  }
+  
+  
+  #home {
+    text-align: center;
+  }
+  
+  #home h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #home p {
+    font-size: 20px;
+    width: 455px;
+    height: 350px;
+    padding-left: 160px;
+  }
+  .container-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .foto {
+    margin: 0px;
+    width: 320px;
+    padding: 10px;
+  }
+  
+  .foto img {
+    width: 420px;
+    height: 420px;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .texto {
+    margin: 10px;
+    width: 500px;
+  }
+  
+  .texto h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .texto p {
+    font-size: 14px;
+  }
+  
+  #contato {
+    text-align: center;
+    padding-bottom: 460px;
+    padding-top: 260px;
+
+  }
+  
+  #contato h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .container-contato {
+    text-align: center;
+  }
+  
+  .container-contato p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .container-contato ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container-contato ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .container-contato ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .container-contato ul li a:hover {
+    color: #ccc;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 25px;
+    margin: 10px;
+  }
+  
+  .container-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px; /* ajuste de acordo com sua preferência */
+    margin: 0 auto;
+  }
+  
+  .projeto {
+    width: 30%; /* Define a largura de cada projeto */
+    margin-bottom: 20px; /* Espaçamento inferior entre os projetos */
+    text-align: center; /* Centraliza o conteúdo dentro do projeto */
+  }
+  
+  .projeto img {
+    max-width: 100%; /* Para garantir que a imagem não ultrapasse o contêiner */
+  }
+  
+  #centro {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
